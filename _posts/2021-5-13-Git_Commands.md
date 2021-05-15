@@ -1,11 +1,10 @@
 ---
 layout: post
-<span style="color:blue">
 title: Git Commands
-</span>
 ---
-
+<span style="color:blue">
 ## Git setup
+</span>
 #### Git installation
 ```console
 brew install git
