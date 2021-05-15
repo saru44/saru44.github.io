@@ -10,4 +10,4 @@ This is a place to store all my learnings!
 
 ### Contact me
 
-[email@domain.com](mailto:mit.saru@gmail.com)
+[mit.saru@gmail.com](mailto:email@domain.com)
