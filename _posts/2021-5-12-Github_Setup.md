@@ -6,6 +6,8 @@ title: Github Setup
 # Github pages setup
 
 ## Ruby and Jekyll installation
+
+### check ruby version and path
 ```
 which ruby
 /usr/bin/ruby
