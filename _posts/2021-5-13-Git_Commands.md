@@ -11,7 +11,7 @@ git --version
 > git version 2.31.1
 ```
 #### Git initialization
-```
+```console
 cd [path\to\your\dir]
 git init
 
@@ -20,24 +20,25 @@ ls -a
 git status
 ```
 #### renaming default git branch from 'master' to 'main'
-```
-# global configuration
+```console
+# change global configuration to automatically set default branch name to main in new repos 
 git config --global init.defaultBranch main
 
-# New repo & git version >= 2.28.0
+# IF: New repo & git version >= 2.28.0
 git init --initial-branch=main [or]
 git init -b main
 
-# New repo & git version < 2.28.0
-# the branch `master` doesnot actually exist. It is created only at first commit.
+# IF: New repo & git version < 2.28.0
+# the branch `master` does not actually exist. It is created only at first commit.
 git init
 git checkout -b main
 
-# rename the present branch to main
+# IF: Old repo, go to `master` branch and then rename it to `main`
+git checkout master
 git branch -m main
 ```
 #### configuring username and email
-```
+```console
 git config --global user.name "your name"
 git config --global user.email "your@email.com"
 ```
