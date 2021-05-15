@@ -79,3 +79,15 @@ gem env
 # Remove any duplicates from the PATH. For zsh, 
 typeset -U PATH
 ```
+### Set Jekyll theme on Github pages
+1. change the layout to `default` in front matter of files in `_posts` folder.      
+
+```
+---
+layout: default
+title: Github Setup
+---
+```
+2. rename the `default` file in `_layouts` folder to `default1`. 
+Because, most themes have `default` layout file but the `default` file in `_layout` folder will override it.
+3. change theme in `settings-> pages -> theme` to the theme of your choice. 
