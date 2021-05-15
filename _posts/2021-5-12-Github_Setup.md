@@ -3,9 +3,9 @@ layout: default
 title: Github Setup
 ---
 
-# Setting up Github and Git in MacOS Big Sur 
-## Github pages setup
-### Ruby and Jekyll installation
+# Github pages setup
+
+## Ruby and Jekyll installation
 ```
 which ruby
 /usr/bin/ruby
@@ -13,11 +13,11 @@ which ruby
 ruby -v
 ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.arm64e-darwin20]
 ```
-#### Install homebrew (if not already installed)
+### Install homebrew (if not already installed)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-#### Install *rbenv* to manage ruby installations in a separate environment (without disturbing system ruby installation)
+### Install *rbenv* to manage ruby installations in a separate environment (without disturbing system ruby installation)
 ```
 # install rbenv via homebrew
 brew install rbenv
@@ -28,7 +28,7 @@ rbenv init
 # check your rbenv installation
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-doctor | bash
 ```
-#### install latest stable ruby version
+### install latest stable ruby version
 ```
 # list latest stable releases of ruby
 rbenv install --list
@@ -53,11 +53,11 @@ rbenv versions
   system
 * 3.0.1 (set by /Users/saru/.rbenv/version)
 ```
-#### install jekyll gem locally (avoid global install)
+### install jekyll gem locally (avoid global install)
 ```
 gem install --user-install bundler jekyll
 ```
-#### Set PATH variables
+### Set PATH variables
 ```
 # check default terminal 
 echo $SHELL
@@ -77,5 +77,3 @@ gem env
 # Remove any duplicates from the PATH. For zsh, 
 typeset -U PATH
 ```
-
-
