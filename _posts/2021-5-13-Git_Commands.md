@@ -1,6 +1,8 @@
 ---
 layout: post
+<span style="color:blue">
 title: Git Commands
+</span>
 ---
 
 ## Git setup
