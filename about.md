@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, This is Saravanan.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+This is a place to store all my learnings!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:mit.saru@gmail.com)
