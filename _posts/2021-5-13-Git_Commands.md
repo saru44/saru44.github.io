@@ -1,15 +1,16 @@
 ---
 layout: default
 title: Git Commands
+published: true
 ---
 ## Git setup
-#### Git installation
+### Git installation
 ```console
 brew install git
 git --version
 > git version 2.31.1
 ```
-#### Git initialization
+### Git initialization
 ```console
 cd [path\to\your\dir]
 git init
@@ -18,7 +19,7 @@ git init
 ls -a
 git status
 ```
-#### renaming default git branch from 'master' to 'main'
+### renaming default git branch from 'master' to 'main'
 ```console
 # change global configuration to automatically set default branch name to main in new repos 
 git config --global init.defaultBranch main
@@ -36,9 +37,12 @@ git checkout -b main
 git checkout master
 git branch -m main
 ```
-#### configuring username and email
+### configuring username and email
 ```console
 git config --global user.name "your name"
 git config --global user.email "your@email.com"
 ```
-#### 
+### set remote repo's `url` and remote repo's name as `origin`
+```console
+git remote set-url origin [github path to your repo]
+```
