@@ -1,9 +1,6 @@
 ---
 published: false
----
----
 layout: default
-title: macos tools
 ---
 
 ## Tools to install
