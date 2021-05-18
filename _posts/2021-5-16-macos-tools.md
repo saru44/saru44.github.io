@@ -1,5 +1,5 @@
 ---
-published: false
+title: MacOS Tools
 layout: default
 ---
 
