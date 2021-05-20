@@ -15,6 +15,7 @@ layout: default
     install `EasyRes` from app store
 ### `exa` - alternative to `ls` command line with better features
 `brew install exa`
-
 ### MonitorControl - control external monitor's brightness, contrast, volume using keyboard shortcuts
 `brew install --cask monitorcontrol`
+### nnn - terminal file manager
+`brew install nnn`
