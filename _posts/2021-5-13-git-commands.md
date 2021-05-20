@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Git Commands
-published: true
 ---
 ## Git setup
 ### Git installation
