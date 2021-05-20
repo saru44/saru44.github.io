@@ -1,6 +1,6 @@
 ---
-title: MacOS Tools
 layout: default
+title: MacOS Tools
 ---
 
 ## Tools to install
