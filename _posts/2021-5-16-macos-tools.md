@@ -19,3 +19,5 @@ install `EasyRes` from app store
 `brew install --cask monitorcontrol`
 ### nnn - terminal file manager
 `brew install nnn`
+### zsh for humans(Z4H): pre-customized configuration for zsh terminal
+https://github.com/romkatv/zsh4humans
