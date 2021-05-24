@@ -31,3 +31,28 @@ install `EasyRes` from app store
 `brew install exa`
 ### zsh for humans(Z4H): pre-customized configuration for zsh terminal
 https://github.com/romkatv/zsh4humans
+
+### Install MS Office 2019 (M1 support is avl from ver 16.44 onwards)
+- download the multi-volume rar files and extract them
+- If extraction fails, then try renaming the files & file extension of rar files as per the below link:
+- https://support.winzip.com/hc/en-us/articles/115011771188-Split-RAR-files-what-they-look-like-and-how-they-work-with-WinZip 
+- install MS Office `.pkg` file
+- install the crack `.pkg` file 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
