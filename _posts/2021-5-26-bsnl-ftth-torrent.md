@@ -43,5 +43,5 @@ Ex: 117.100.51.10
 ### If the above port forwarding doesnot start the torrent seeding
 - `Advance -> Firewall`
 - Enable `Dmz` and click Apply
-
+  - once torrent starts seeding, disable `Dmz`
 
