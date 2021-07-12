@@ -4,7 +4,6 @@ title: MacOS Tools
 ---
 
 ## Tools to install
-
 ### Set SMTPE color profile - for contrast setting that is easier on the eye
 ```
 System preference -> Displays -> Color -> uncheck 'show profiles for this display only'
@@ -38,21 +37,7 @@ https://github.com/romkatv/zsh4humans
   - https://support.winzip.com/hc/en-us/articles/115011771188-Split-RAR-files-what-they-look-like-and-how-they-work-with-WinZip 
 - install MS Office `.pkg` file
 - install the crack `.pkg` file 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Increase mouse/ trackpad sensitivity beyond maximum
+`defaults write -g com.apple.mouse.scaling 5.0`
+(default value is 3.0)
 
