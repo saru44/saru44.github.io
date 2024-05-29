@@ -37,7 +37,11 @@ https://github.com/romkatv/zsh4humans
   - https://support.winzip.com/hc/en-us/articles/115011771188-Split-RAR-files-what-they-look-like-and-how-they-work-with-WinZip 
 - install MS Office `.pkg` file
 - install the crack `.pkg` file 
+
 ### Increase mouse/ trackpad sensitivity beyond maximum
 `defaults write -g com.apple.mouse.scaling 5.0`
 (default value is 3.0)
 
+### Increase mouse smoothness (FOSS)
+- Mac Mouse Fix [https://macmousefix.com/] (more light-weight than Mos, also can match trackpad behaviour of Mac with this app)
+- Mos [https://mos.caldis.me/]
