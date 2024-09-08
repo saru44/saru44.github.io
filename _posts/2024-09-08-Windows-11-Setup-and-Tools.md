@@ -1,4 +1,4 @@
-## Windows 11 Installation - Initial setup
+### Win11 Installation - Initial setup
 Remove Onedrive linking during Windows setup
 Install Windows Pacakge Manager - Chocolatey
 
